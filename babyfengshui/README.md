@@ -1,12 +1,3 @@
-input text比較
-
-text = malloc(10)
-name = malloc(128)
-
-scanf("%d",size);
-if &name > &text+size
-    read(0,text,size);
-
 # babyfengshui
 
 ## 0x1 Introduction
@@ -110,3 +101,4 @@ next,can overwrite heap_array(0x804b080) and leak information
 
 final hijack strchr.got and input sh will get shell!!!
 
+[exploit](exp.rb)
